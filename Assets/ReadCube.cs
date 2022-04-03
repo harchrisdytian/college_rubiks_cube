@@ -27,10 +27,10 @@ public class ReadCube : MonoBehaviour
     }
     private void Update()
     {
-        readState();
+
     }
 
-    private void readState()
+    public void readState()
     {
         cubeState = FindObjectOfType<CubeState>();
         cubeMap = FindObjectOfType<CubeMap>();

@@ -10,7 +10,12 @@ public class CubeMap : MonoBehaviour
     public void Set()
     {
         cubeState = FindObjectOfType<CubeState>();
-        UpdateMap(cubeState.front, Front);
+        UpdateMap(cubeState.front, Front); 
+        UpdateMap(cubeState.back, Back);
+        UpdateMap(cubeState.left, Left);
+        UpdateMap(cubeState.right, Right);
+        UpdateMap(cubeState.up, Up);
+        UpdateMap(cubeState.down, Down);
     }
     void UpdateMap(List<GameObject> face, Transform side)
     {

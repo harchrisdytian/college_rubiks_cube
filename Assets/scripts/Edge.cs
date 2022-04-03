@@ -9,7 +9,7 @@ public class Edge : MonoBehaviour
 
     public void setCenter(Center Rotating_center,Center new_center)
     {
-        centers[0];
+
        
     }
 }

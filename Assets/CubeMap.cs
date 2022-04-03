@@ -41,6 +41,7 @@ public class CubeMap : MonoBehaviour
             {
                 map.GetComponent<Image>().color = Color.yellow;
             }
+            i++;
         }
     }
 }
